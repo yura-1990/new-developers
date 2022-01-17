@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Lobster&family=Luxurious+Script&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,14 +8,14 @@
     text-decoration: none;
 }
 
-:root{
+:root {
     --cor: 'Corinthia';
     --lob: 'Lobster';
     --lux: 'Luxurious Script';
     --pop: 'Poppins';
 }
 
-.container{
+.container {
     max-width: 1140px;
     width: 100%;
     margin-left: auto;
@@ -24,48 +24,63 @@
     padding-right: 15px;
 }
 
-.header__nav{
+.header__nav {
     background: aqua;
 }
 
-.header__content{
+.header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo {
     width: 50px;
     height: 50px;
 }
 
-.header__list{
+.header__list {
     display: flex;
     gap: 50px;
 
 }
 
-.header__link{
+.header__link {
     color: rgba(0, 0, 0, 0.8);
     font-weight: 700;
     font-size: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
     display: flex;
-    font-family:var(--lob);
+    font-family: var(--lob);
 }
 
-.usmonali__content{
-width: 100%;
-height: 600px;
-background: rgb(197, 24, 24);
+.usmonali {
+    height: 600px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1)
+     0%, rgba(253, 187, 45, 1) 100%);
 }
-.usmonali__right{
-    padding-top:50px;
+.usmonali__content{
+    display: flex;
+    gap: 100px;
+}
+.right{
+  height: 500px;
+}
+.usmonali__img{
+  width: 500px;
+  border-radius: 6px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    text-align: center;
 }
 .usmonali__title{
-    font-family: var(--lob);
-    font-size: 50px;
-    color: rgb(87, 82, 80);
-    
+ font-family: var(--lob);   
+}
+.usmonali__text{
+    font-family: var(--pop);
 }
